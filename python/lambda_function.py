@@ -1,4 +1,4 @@
 def hello_world(event, context):
-    message = 'Hello {} {}!'.format(event['first_name'],
+    message = 'Hello {} {} from Python lambda!'.format(event['first_name'],
                                     event['last_name'])
     return {'message' : message}
